@@ -6,9 +6,22 @@ body {
 	padding: 0;
 }
 
-.header {
+.mint {
+    font-palette: --Mint;
+    font-family: 'Rocher';
     text-align: center;
+    font-size: 60px;
 }
+
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+
+@font-palette-values --Mint {
+    font-family: Rocher;
+    base-palette: 7;
+  }
 
 .container {
     display: flex;
@@ -23,21 +36,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1.5px solid #fff;
+    border: 2px solid #5b559d;
     border-radius: 10px;
 }
 
 .number {
     justify-content: center;
-    font-size: 60px
-    color: #fff;
+    font-size: 60px;
+    color: #6bc4c7;
+    font-family: 'Rocher';
     margin: 0;
     padding: 0;
 }
 
 .button-19 {
   appearance: button;
-  background-color: #1899D6;
+  background-color: #5b559d;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
@@ -69,7 +83,7 @@ body {
 
 .button-19:after {
   background-clip: padding-box;
-  background-color: #1CB0F6;
+  background-color: #6bc4c7;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
@@ -102,9 +116,8 @@ body {
 }
 
 @media (max-width: 600px) {
-    .header {
-        font-size: 45px;
-        margin-bottom: 30%;
+    .mint {
+        margin-bottom: 20%;
     }
 
     .box {
