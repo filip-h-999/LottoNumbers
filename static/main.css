@@ -32,7 +32,7 @@ body {
 
 .box {
     margin-top: 5%;
-    width: 30%;
+    width: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +64,7 @@ body {
   font-weight: 700;
   letter-spacing: .8px;
   line-height: 20px;
-  margin-top: 30%;
+  margin-top: 10%;
   outline: none;
   overflow: visible;
   padding: 13px 16px;
@@ -77,8 +77,8 @@ body {
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  width: 50%;
-  margin-left: 24%;
+  width: 30%;
+  margin-left: 34.5%;
 }
 
 .button-19:after {
@@ -128,7 +128,9 @@ body {
         font-size: 60px;
     }
 
-    .button {
-        margin-top: 10%;
+    .button-19 {
+        width: 50%;
+        margin-top: 23%;
+        margin-left: 24%;
     }
 }
