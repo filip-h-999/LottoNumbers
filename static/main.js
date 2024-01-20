@@ -2,6 +2,10 @@ function generateRandomNumbers(min, max, count) {
 	const numbers = [];
 	for (let i = 0; i < count; i++) {
 		const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+		if (numbers.includes(randomNumber)) {
+			i--;
+			continue;
+		}
 		numbers.push(randomNumber);
 	}
 	return numbers;
