@@ -4,7 +4,6 @@ function generateRandomNumbers(min, max, count) {
 		const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
 		if (numbers.includes(randomNumber)) {
 			i--;
-			continue;
 		}
 		numbers.push(randomNumber);
 	}
