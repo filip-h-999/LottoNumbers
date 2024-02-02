@@ -23,4 +23,4 @@ This is a simple web-based application written in JavaScript that generates rand
 - JavaScript
 
 ## Preview
-![Image](static\image\image.png)
+![image](https://github.com/filip-h-999/LottoNumbers/assets/93609912/dfb46bfb-aa8f-48bb-930c-f5d75ef21698)
